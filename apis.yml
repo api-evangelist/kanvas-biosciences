@@ -1,7 +1,28 @@
 aid: kanvas-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kanvas-biosciences.png
 name: Kanvas Biosciences
-description: Kanvas Biosciences is a company surfaced as a portfolio company of dcvc and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Kanvas Biosciences is a spatial biology company building a microbiome drug
+  screening, discovery, and manufacturing platform to accelerate development of
+  next-generation live biotherapeutics. Its proprietary High-Phylogenetic-Resolution
+  Spatial Mapping (HiPR-Map) platform uses oligonucleotide probes targeting ribosomal
+  and messenger RNA to visualize microbial identity and cellular function within
+  tissue across all kingdoms of life, illuminating host-microbiome interactions. The
+  company advances a microbiome-based immuno-oncology pipeline (lead candidate KAN-001)
+  and operates GMP manufacturing. Backed by DCVC. Added to the API Evangelist network
+  as a portfolio-company profile; the enrichment pass found no public developer API,
+  SDK, or well-known discovery surface.
 url: https://raw.githubusercontent.com/api-evangelist/kanvas-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Life Sciences
+- Microbiome
+- Spatial Biology
+- Drug Discovery
+- Immuno-Oncology
+- Therapeutics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/kanvas-biosciences-domain-security.yml
+- type: Website
+  url: https://www.kanvasbio.com
+- type: Blog
+  url: https://www.kanvasbio.com/news
+- type: Support
+  url: https://www.kanvasbio.com/contact
+- type: PrivacyPolicy
+  url: https://www.kanvasbio.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
